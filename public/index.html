@@ -24,6 +24,8 @@
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="angular/angular.js"></script>
+    <script src="angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,7 +37,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" ng-app="partmentsApp">
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -43,7 +45,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> תפריט <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">partments.io</a>
             </div>
@@ -143,11 +145,12 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="/img/קבוצת יצחקי/רחובות/Screen Shot 2017-02-16 at 12.48.34 PM.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>elite רחובות</h4>
+                        <p class="text-muted">השקעה החל מ90 אלף ש״ח</p>
+                        <p class="text-muted">תשואה צפוייה כ-20%</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -230,7 +233,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">תהליך השקעה</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">להלן פירוט אבני הדרך העיקריות</h3>
                 </div>
             </div>
             <div class="row">
@@ -242,11 +245,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4 class="subheading">מפגש ראשוני</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">שיחה טלפונית על מנת לוודא תאום ציפיות, מפגש פרונטלי להצגת הפרוייקטים לעומק ובחירת פרוייקט.</p>
                                 </div>
                             </div>
                         </li>
@@ -256,11 +258,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4 class="subheading"> הסכם שותפות וייפוי כח</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">על מנת לשמור על שלום בית בין הרוכשים נחתום על הסכם שותפות עם כל סוגי המקרים תגובות למינהן על מנת להבטיח תגובה מהירה וזריזה ולחסוך דיוניםע שעלולים לעקב ולפגוע בקבוצה</p>
                                 </div>
                             </div>
                         </li>
@@ -270,11 +271,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4 class="subheading">חתימה מול היזם</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                  <p class="text-muted">בשלב זה נחתום על הסכם רכישה מול יזם הפרוייקט. נעביר את סכום הרכישה לפי אפיק ההשקעה הנבחר לחשבון נאמנות אצל עורכי הדין</p>
                                 </div>
                             </div>
                         </li>
@@ -284,19 +284,18 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4 class="subheading">מימוש הנכס</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">לאחר תום הבנייה הדירה תשווק על ידינו ותמכר במחיר שנקבע מראש לפי תמהיל ההשעה. לאחר המחירה הקרן והרווחים יועברו לחברי הקבוצה</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>כך חלק
+                                    <br> מעיסקה
+                                    <br>מניבה!</h4>
                             </div>
                         </li>
                     </ul>
@@ -333,6 +332,45 @@
             </div>
         </div>
     </aside>
+
+    <section id="questions">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+          </div>
+          <div class="col-lg-6 text-center">
+            <h2 style="font-size:40px;"> שאלות נפוצות</h2>
+            <div ng-controller="acordionCtrl">
+              <script type="text/ng-template" id="group-template.html">
+                <div class="panel-heading">
+                  <h4 class="panel-title" style="color:#fa39c3">
+                    <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                      <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
+                        {{heading}}
+                      </span>
+                    </a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse" uib-collapse="!isOpen">
+                  <div class="panel-body" style="text-align: right" ng-transclude></div>
+                </div>
+              </script>
+
+              <uib-accordion close-others="oneAtATime">
+                <div uib-accordion-group class="panel-default" heading="?מי מחזיק בבעלות של הנכס" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                  לכל חברי המשקעים בקבוצה הרוכשת יהיה רישום מוסדר בטאבו שידווח לרשויות הרלוונטיות
+                </div>
+                <div uib-accordion-group class="panel-default" heading="{{group.title}}" ng-repeat="group in groups">
+                   {{group.content}}
+                </div>
+              </uib-accordion>
+              </div>
+            </div>
+          <div class="col-lg-3">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -589,6 +627,8 @@
         </div>
     </div>
 
+    <script src=js/partmentsApp.js></script>
+    <script src="js/acordionCtrl.js"></script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
