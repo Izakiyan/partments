@@ -1,8 +1,17 @@
-.title{
-  font-size: 40px;
+.above{
   margin-bottom: 150px;
+  }
+
+  .title{
+    font-size: 35px;
+    margin-top: 50px;
+    color: black;
   }
 
 #questions{
   background-color: #eee;
+}
+
+#whoareyou{
+  background-color: #dfe3ee;
 }
