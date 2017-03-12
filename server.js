@@ -3,8 +3,11 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var Form = require('./formSchema');
 
-mongoose.connect('mongodb://localhost/partments');
+var MONGODB_URI = 'mongodb://heroku_ln4xsgzs:6hb7nbg9hcpfr92s8dboto8bbo@ds129320-a0.mlab.com:29320,ds129320-a1.mlab.com:29320/heroku_ln4xsgzs?replicaSet=rs-ds129320'
 
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/partments');
+
+// mongoose.Promise = Promise
 
 
 var app = express();
@@ -29,3 +32,8 @@ app.post('/form', function(req,res){
 var port = process.env.PORT || '3000';
 
 app.listen(port);
+
+// app.set('port', (process.env.PORT || 3000));
+// app.listen(app.get('port'),function(){
+//   console.log('partments' server running at', app.get('port'));
+// });
