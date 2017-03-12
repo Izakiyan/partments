@@ -32,3 +32,11 @@
 	-moz-text-shadow: 0 0 4px black;
 	-webkit-text-shadow: 0 0 4px black;
 }
+
+#main{
+  background-color: #FF851B;
+}
+
+.text-muted{
+  font-size: 20px;
+}
