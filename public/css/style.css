@@ -44,3 +44,12 @@
 .service-heading {
 font-size: 2em;
 }
+
+.imghead{
+  height: 57%;
+  width: 65%;
+}
+
+.caption p{
+  font-size: 1.17em;
+}
